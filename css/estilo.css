@@ -1,0 +1,174 @@
+html, body {
+	
+
+}
+
+
+header {
+	
+	width:100%; /* Establecemos que el header abarque el 100% del documento */
+	overflow:hidden; /* Eliminamos errores de float */
+	background:#252932;
+	margin-bottom:50px;
+}
+ 
+.wrapper {
+	width:100%; /* Establecemos que el ancho sera del 90% */
+	max-width:1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
+	margin:right; /* Centramos los elementos */
+	overflow:hidden; /* Eliminamos errores de float */
+}
+ 
+header .logo {
+	color:#f2f2f2;
+	font-size:50px;
+	line-height:100px;
+	float:right;
+}
+ 
+header nav {
+	float:right;
+	line-height:100px;
+}
+ 
+header nav a {
+	display:inline-block;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 20px;
+	line-height:normal;
+	font-size:20px;
+	font-weight:bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+ 
+header nav a:hover {
+	background:#f56f3a;
+	border-radius:50px;
+}
+}	
+section {
+     width: 100%;
+	 background: #ccc;
+	 float: left;
+	 overflow: auto;
+	 padding-bottom: 60 px;
+	 padding-top:30px;
+	 
+}
+aside  {
+     float: right;
+     border: 1 px solid red;
+     width: 19%;
+     border: 1px solid red;
+     /*Si quisieramos ocultar el contenido = visibility: hidden;*/
+	 
+}
+footer {
+     positon: relative;
+     margin-top: -50px;
+     height: 40px;
+     padding: 5 px 0 px;
+     clear: both;
+     background: #286af0;
+     text-align: center;
+     color: #fff;
+}
+figure {
+     display: table; margin: 0 auto;
+}	 
+
+html, body {
+height:100%; /*especifica la altura del area de contenido de un elemento.*/
+}
+
+header {  /*representa un grupo de ayudas introductorias o de navegación.*/
+display:block;  /*1-permite especificar el tipo de caja que se aplica en un elemento 2-caja rectangular que forma un bloque.*/
+background:#FFA07A;  /*permite definir simultáneamente todas las propiedades relacionadas con el fondo de cualquier elemento.*/
+padding:10px 0px;  /*permite establecer el tamaño del margen interior.*/
+} 
+
+section { /*es un elemento de seccionamiento genérico, diseñado para contener una parte de un documento temáticamente definida.*/
+width: 79%;  /*La propiedad CSS width especifica la anchura del area de contenido de un elemento.*/
+background: 	#FAFAD2;  /*permite definir simultáneamente todas las propiedades relacionadas con el fondo de cualquier elemento.*/
+float: left;  /*La propiedad float establece el esquema de posicionamiento flotante para un elemento. Izquierda*/
+overflow: left;  /*La propiedad overflow establece el tratamiento que debe dar el navegador al contenido que no cabe en el elemento padre.*/
+padding-bottom: 60px;  /*permiten establecer el tamaño del margen interior de forma independiente.*/
+padding-top: 30px;  /*La propiedad establece el espacio de relleno requerido en la parte superior del elemento.*/
+}
+aside {  /*El elemento aside es un contenedor para información que se considera solo levemente relacionada al documento o la sección en la que es definida.*/
+float: right;  /*La propiedad float establece el esquema de posicionamiento flotante para un elemento. Derecha.*/
+border: 3px solid pink;  /*permite establecer simultáneamente los cuatro bordes (arriba, derecha, abajo e izquierda) de un elemento, definiendo su color, grosor y estilo.*/
+width: 19%;  /*La propiedad CSS width especifica la anchura del area de contenido de un elemento.*/
+border: 3px solid pink;  /*permite establecer simultáneamente los cuatro bordes (arriba, derecha, abajo e izquierda) de un elemento, definiendo su color, grosor y estilo.*/
+}
+footer {  /*representa un pie de página para el contenido de sección más cercano o el elemento  raíz de sección. */
+position: relative;  /*El valor relative en el atributo position indica que la capa sí forma parte del flujo normal de elementos de la página, por lo que su posición dependerá del lugar donde esté en el código y el flujo HTML. */
+margin-top: -50px;  /*Si en una página web dos elementos de bloque contiguos definen sus propios márgenes verticales, el navegador los fusiona de forma automática y muestra un margen vertical igual al mayor de los dos márgenes verticales. */
+heigh: 40px;  /*Establece la altura de los elementos de bloque.*/
+padding: 5px 0px;  /*La propiedad CSS padding establece el espacio de relleno requerido por todos los lados de un elemento. */
+clear: both;  /*especifica si un elemento puede estar al lado de elementos flotantes que lo preceden o si debe ser movido (cleared) debajo de ellos. */
+background: #FFA07A;  /*permite definir simultáneamente todas las propiedades relacionadas con el fondo de cualquier elemento.*/
+text-align: center;  /*Establece la alineación del contenido de un elemento de bloque, centro. */
+color: #fff;  /*selecciona el valor de color de primer plano del contenido de elemento de texto y decoraciones de texto. */
+}
+figure {  /*representa a una pieza de documento autocontenido que se utiliza habitualmente para encerrar imágenes, gráficos, tablas de referencia, videos, poemas, fragmentos de código, etc. */
+display: table; margin: 0 auto; /*Permite asignar un comportamiento de tabla a los elementos que haya dentro (anidados a la etiqueta donde estás colocando el display: table). 2-Margen izquierdo y derecho tomará el margen automático de acuerdo con el ancho del elemento y el ancho del contenedor. */
+}
+
+form{
+	width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#FFCC99;
+}
+
+form label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="text"],
+form input[type="email"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#663300;
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	/*resize: vertical | horizontal | none | both*/
+	resize:none;
+	display:block;
+}
+
+
+	
